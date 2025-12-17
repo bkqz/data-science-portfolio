@@ -26,7 +26,7 @@ With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I
 ## 🚀 Featured Projects
 
 ### 1. [AI Motivational Quote Generator (TinyLlama Fine-Tuning)](https://github.com/bkqz/ai-quote-generator)
-**Role:** ML Engineer
+**Role:** ML Engineer  
 **Focus:** Large Language Model Fine-Tuning & Inference Optimization
 * **Summary:** Fine-tuned a 1.1B parameter TinyLlama model to strictly adhere to structured output formats, reducing inference latency by ~58% via quantization.
 * **Engineering Highlights:**
@@ -34,10 +34,9 @@ With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I
     * Converted models to **GGUF format** for CPU/Edge deployment.
     * Conducted rigorous **GPU Benchmarking** (T4) to validate performance gains.
 * **Stack:** PyTorch, Hugging Face, Google Colab, Gradio.
-* **Links:** [Live Demo](https://huggingface.co/spaces/bkqz/ai-quote-generator) | [Model Weights](https://huggingface.co/bkqz/tinyllama-quotes-generator-gguf)
 
 ### 2. [AI-Powered Recipe Recommender](https://github.com/bkqz/recipe-recommender)
-**Role:** Data Scientist
+**Role:** Data Scientist  
 **Focus:** NLP, Vectorization, and Web Application
 * **Summary:** Developed a content-based recommendation engine that matches user ingredients to recipes using TF-IDF vectorization and Cosine Similarity.
 * **Stack:** Python, Streamlit, Pandas, Scikit-learn, REST APIs.
@@ -45,10 +44,10 @@ With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I
 ### 3. [CloudMart: Multi-Cloud E-Commerce Platform](https://www.linkedin.com/posts/bkaziyev_multicloud-devops-ai-activity-7309754378440077312-Zpmm)
 *Note: This project synthesizes a 5-day intensive MultiCloud challenge.*
 
-**Role:** Cloud/Data Engineer
+**Role:** Cloud/Data Engineer  
 **Focus:** Infrastructure as Code (IaC), Containerization, and AI Agent Integration
 
-![CloudMart Architecture Diagram](cloudmart.jpg)
+![CloudMart Architecture Diagram](cloudmart/architecture.png)
 
 * **Summary:** Architected an e-commerce system spanning **AWS, GCP, and Azure**.
 * **Engineering Highlights:**
@@ -58,7 +57,7 @@ With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I
     * **Data & AI:** Integrated **AWS Bedrock** for AI customer agents, **Google BigQuery** for analytics and **Azure AI** for sentiment analysis on customer feedback.
 
 ### 4. [Predictive Maintenance Dashboard](https://predmaintdemo.streamlit.app/)
-**Role:** Data Analyst / Scientist
+**Role:** Data Analyst / Scientist  
 **Focus:** Regression Modeling & Operational Insights
 * **Summary:** Leveraged historical sensor data to predict the Remaining Useful Life (RUL) of industrial equipment, achieving an RMSE of ~18 cycles.
 * **Stack:** XGBoost, Random Forest, Feature Engineering, Streamlit.
@@ -108,4 +107,3 @@ With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I
 ## 📂 Other Projects
 * **[Fake News Detector](fake_news_detector/Fake_news_detector.ipynb):** NLP classification using TF-IDF and Passive Aggressive Classifiers (93% Accuracy).
 * **[Titanic Dataset Analysis](titanic_dataset/):** Comprehensive EDA and classification using Random Forest (82% Accuracy).
-* **[Weight Prediction](weight_prediction/Weight_prediction.ipynb):** Linear regression and decision tree modeling for demographic data.
