@@ -1,69 +1,111 @@
-# Data Science Portfolio
+# My Portfolio
 
 ## Introduction
-A newly minted data scientist with a solid foundation from a rigorous bootcamp and a prior career in Control Systems Engineering. My expertise includes Python, SQL, and various machine learning techniques. I'm excited to apply my diverse skill set to solve real-world problems. Check out my projects and feel free to reach out to me.
+I am a **Data/ML Professional** with a unique background blending **Control Systems Engineering** with modern **AI & Cloud Architecture**. I specialize in bridging the gap between Data Science and Engineering—building robust pipelines, training predictive models, and deploying scalable AI solutions.
 
-## Projects
+With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I offer end-to-end expertise: from provisioning infrastructure with Terraform to fine-tuning LLMs for production.
 
-### Project 1: Titanic Dataset
-- **Objective:** Predict the survival of passengers on the Titanic.
-- **Techniques Used:** Data Cleaning, Feature Engineering, Logistic Regression, Decision Trees, Random Forest, Hyperparameter Tuning.
-- **Tools:** Python, Pandas, Scikit-learn, Jupyter Notebooks.
-- **Outcome:** Achieved an accuracy of 82% with Random Forest model.
-- **Details:** This project is split into two parts:
-  - **Part 1:** [Feature engineering.](titanic_dataset/Titanic_Dataset_part1_feature_engineering.ipynb)
-  - **Part 2:** [Solving the classification problem.](titanic_dataset/Titanic_Dataset_part2_solving_classification_problem.ipynb)
+* **Location:** Austin, TX (Open to Relocation)
+* **Contact:** [bakytzhan.kaziyev@gmail.com](mailto:bakytzhan.kaziyev@gmail.com)
+* **LinkedIn:** [Bakytzhan Kaziyev](https://www.linkedin.com/in/bkaziyev/)
 
-### Project 2: [Weight Prediction](weight_prediction/Weight_prediction.ipynb)
-- **Objective:** Predict the weight of individuals based on gender and height.
-- **Techniques Used:** Linear Regression, Decision Tree, Random Forest, Data Transformation.
-- **Tools:** Python, Pandas, Scikit-learn.
-- **Outcome:** Created a simple yet effective model for weight prediction.
+---
 
-### Project 3: [Fake News Detector](fake_news_detector/Fake_news_detector.ipynb)
-- **Objective:** Classify news articles as real or fake.
-- **Techniques Used:** Natural Language Processing (NLP), TF-IDF, Naive Bayes, Passive Aggressive Classifier, SVM Classifier.
-- **Tools:** Python, NLTK, Scikit-learn.
-- **Outcome:** Developed a model with a score 93% on the test set.
+## 🛠 Technical Skills
 
-### Project 4: [Predictive Maintenance](https://predmaintdemo.streamlit.app/)
-- **Objective:** Predict Remaining Useful Life (RUL) of equipment to enable proactive maintenance.
-- **Techniques Used:** Feature Engineering, Linear Regression, Support Vector Regression, Random Forest, XGBoost, Hyperparameter Tuning.
-- **Tools:** Python, Pandas, Scikit-learn, XGBoost, Streamlit.
-- **Outcome:** Implemented a model that predicts RUL with RMSE ~18.
+| Domain | Key Technologies |
+|--------|------------------|
+| **AI & Machine Learning** | PyTorch, TensorFlow, Scikit-Learn, XGBoost, LLM Fine-Tuning (PEFT/LoRA), RAG, Vector Search, Hugging Face |
+| **Data Engineering** | SQL, Airflow, Spark, ETL/ELT Pipelines, BigQuery, Data Modeling |
+| **Cloud & DevOps** | AWS (Bedrock, EKS), GCP, Azure, Docker, Kubernetes, Terraform, CI/CD |
+| **Programming** | Python, SQL, GoLang, C, Bash Scripting |
+| **Visualization** | PowerBI, Matplotlib, Streamlit |
 
-## Skills
-- Machine Learning
-- Data Visualization
-- Statistical Analysis
-- SQL Databases
-- NLP
-- Programming Languages:
-  - C
-  - Python
-  - Golang
+---
 
-## Experience
+## 🚀 Featured Projects
 
-- **Data Science Bootcamp Participant**, Outpeer.kz School, October 2023 - June 2024
-  - Completed intensive data science training, finishing as one of the top 10 students.
-  - Developed projects involving data cleaning, analysis, and machine learning.
+### 1. [AI Motivational Quote Generator (TinyLlama Fine-Tuning)](https://github.com/bkqz/ai-quote-generator)
+**Role:** ML Engineer
+**Focus:** Large Language Model Fine-Tuning & Inference Optimization
+* **Summary:** Fine-tuned a 1.1B parameter TinyLlama model to strictly adhere to structured output formats, reducing inference latency by ~58% via quantization.
+* **Engineering Highlights:**
+    * Implemented **QLoRA** and **PEFT** for efficient training on consumer hardware.
+    * Converted models to **GGUF format** for CPU/Edge deployment.
+    * Conducted rigorous **GPU Benchmarking** (T4) to validate performance gains.
+* **Stack:** PyTorch, Hugging Face, Google Colab, Gradio.
+* **Links:** [Live Demo](https://huggingface.co/spaces/bkqz/ai-quote-generator) | [Model Weights](https://huggingface.co/bkqz/tinyllama-quotes-generator-gguf)
 
-- **Software Engineering Bootcamp Participant**, QWANT (Tech Orda Program, Astana Hub, Digital and Space Ministry of RoK), October 2023 - April 2024 
-  - Acquired software engineering skills applicable to data science.
+### 2. [AI-Powered Recipe Recommender](https://github.com/bkqz/recipe-recommender)
+**Role:** Data Scientist
+**Focus:** NLP, Vectorization, and Web Application
+* **Summary:** Developed a content-based recommendation engine that matches user ingredients to recipes using TF-IDF vectorization and Cosine Similarity.
+* **Stack:** Python, Streamlit, Pandas, Scikit-learn, REST APIs.
+  
+### 3. [CloudMart: Multi-Cloud E-Commerce Platform](https://www.linkedin.com/posts/bkaziyev_multicloud-devops-ai-activity-7309754378440077312-Zpmm)
+*Note: This project synthesizes a 5-day intensive MultiCloud challenge.*
 
-- **Various Roles in Control Systems Engineering**, Oil & Gas/Energy Sectors, July 2009 - October 2023
-  - Mastered data analysis, data visualization in Power BI, and SQL for various engineering databases.
-  - Applied analytical skills to optimize control systems and improve operational efficiency.
+**Role:** Cloud/Data Engineer
+**Focus:** Infrastructure as Code (IaC), Containerization, and AI Agent Integration
 
-## Education
-- **[Certified Data Engineer Associate](https://www.datacamp.com/certificate/DEA0014066961018)**, Datacamp, 2024
-- **Data Science Bootcamp**, Outpeer.kz School, 2023-2024
-- **Software Engineering Bootcamp**, QWANT (Tech Orda Program), 2023-2024
-- **Data Analyst in SQL**, Datacamp, 2023
-- **Applied Data Science with Python**, World Quant University, 2021
-- **Cloud Engineering with Google Cloud**, Coursera, 2020
-- **M.Sc. in Advanced Control & Systems Engineering**, University of Manchester, 2014-2015
-- **B.Sc. in Economics**, Moscow Power Engineering Institute (Technical University), 2008-2011
-- **B.Sc. in Radio Engineering, Electronics and Telecommunications**, Almaty University of Power Engineering and Telecommunications, 2007-2011
+![CloudMart Architecture Diagram](cloudmart.jpg)
 
+* **Summary:** Architected an e-commerce system spanning **AWS, GCP, and Azure**.
+* **Engineering Highlights:**
+    * **Infrastructure:** Provisioned AWS resources using **Terraform**.
+    * **Deployment:** Containerized applications with **Docker** and orchestrated via **Kubernetes (EKS)**.
+    * **Pipelines:** Built automated CI/CD workflows using **AWS CodePipeline**.
+    * **Data & AI:** Integrated **AWS Bedrock** for AI customer agents, **Google BigQuery** for analytics and **Azure AI** for sentiment analysis on customer feedback.
+
+### 4. [Predictive Maintenance Dashboard](https://predmaintdemo.streamlit.app/)
+**Role:** Data Analyst / Scientist
+**Focus:** Regression Modeling & Operational Insights
+* **Summary:** Leveraged historical sensor data to predict the Remaining Useful Life (RUL) of industrial equipment, achieving an RMSE of ~18 cycles.
+* **Stack:** XGBoost, Random Forest, Feature Engineering, Streamlit.
+
+---
+
+## 💼 Professional Experience
+
+**Data Scientist | Projects & Certifications**
+*Austin, TX | 07/2024 - Present*
+* **Cloud Architecture:** Designed multi-cloud AI systems integrating AWS, Azure, and GCP services.
+* **Certification:** Earned **AWS Certified AI Practitioner** and **Oracle AI Vector Search** credentials.
+* **Modeling:** Developed end-to-end regression and classification models to solve business-critical problems.
+
+**Machine Learning Engineer Intern | Outpeer.kz**
+*Remote | 10/2023 - 06/2024*
+* **Top Performer:** Ranked top 10 in a competitive Data Science Bootcamp (100+ peers).
+* **Predictive Modeling:** Built and optimized Random Forest/XGBoost models for equipment lifecycle forecasting.
+
+**Software Engineering Bootcamp Participant | Qwasar Silicon Valley**
+*Remote | 10/2023 - 06/2024*
+* **Systems Programming:** Completed 500+ hours of low-level programming in **C and GoLang**, focusing on memory management and algorithms.
+
+**Control Systems Engineer (Lead Consultant)**
+*Oil & Gas / Energy Sectors | 07/2009 - 10/2023*
+* **Engineering Leadership:** Led system integration and commissioning for Chevron's major capital project ($47B+).
+* **Data Analysis and Optimization:** Analyzed telemetry data using SQL/PowerBI to reduce energy losses by 5-10%.
+
+---
+
+## 📜 Certifications
+
+* **AWS Certified AI Practitioner** (Early Adopter Badge), 2025
+* **Oracle Certified Professional:** Generative AI, AI Vector Search, OCI Data Science, 2025
+* **DataCamp Certified Data Engineer Associate**, 2024
+
+---
+
+## 🎓 Education
+
+* **M.Sc. in Advanced Control & Systems Engineering** | University of Manchester
+* **B.Sc. in Economics** | Moscow Power Engineering Institute
+* **B.Sc. in Radio Engineering, Electronics & Telecommunications** | Almaty University of Power Engineering and Telecommunications
+
+---
+
+## 📂 Other Projects
+* **[Fake News Detector](fake_news_detector/Fake_news_detector.ipynb):** NLP classification using TF-IDF and Passive Aggressive Classifiers (93% Accuracy).
+* **[Titanic Dataset Analysis](titanic_dataset/):** Comprehensive EDA and classification using Random Forest (82% Accuracy).
+* **[Weight Prediction](weight_prediction/Weight_prediction.ipynb):** Linear regression and decision tree modeling for demographic data.
