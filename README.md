@@ -1,12 +1,11 @@
 # My Portfolio
 
 ## Introduction
-I am a **Data/ML Professional** with a unique background blending **Control Systems Engineering** with modern **AI & Cloud Architecture**. I specialize in bridging the gap between Data Science and Engineering—building robust pipelines, training predictive models, and deploying scalable AI solutions.
-
-With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I offer end-to-end expertise: from provisioning infrastructure with Terraform to fine-tuning LLMs for production.
+I am a **Microsoft Certified Azure AI & Data Engineer** with over 2 years of experience bridging the gap between data infrastructure and machine learning implementation. I specialize in building **Lakehouse architectures**, training predictive models (Scikit-Learn, XGBoost), and deploying scalable AI solutions using **AWS, Azure, and Python**.
 
 * **Location:** Austin, TX (Open to Relocation)
-* **Contact:** [bakytzhan.kaziyev@gmail.com](mailto:bakytzhan.kaziyev@gmail.com)
+* **Phone:** (512) 766-7757
+* **Contact:** [beckettkazi@gmail.com](mailto:beckettkazi@gmail.com)
 * **LinkedIn:** [Bakytzhan Kaziyev](https://www.linkedin.com/in/bkaziyev/)
 
 ---
@@ -15,17 +14,26 @@ With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I
 
 | Domain | Key Technologies |
 |--------|------------------|
-| **AI & Machine Learning** | PyTorch, TensorFlow, Scikit-Learn, XGBoost, LLM Fine-Tuning (PEFT/LoRA), RAG, Vector Search, Hugging Face |
-| **Data Engineering** | SQL, Airflow, Spark, ETL/ELT Pipelines, BigQuery, Data Modeling |
-| **Cloud & DevOps** | AWS (Bedrock, EKS), GCP, Azure, Docker, Kubernetes, Terraform, CI/CD |
-| **Programming** | Python, SQL, GoLang, C, Bash Scripting |
+| **AI & Machine Learning** | PyTorch, TensorFlow, Scikit-Learn, XGBoost, LLM Fine-Tuning (PEFT/LoRA), RAG, Computer Vision, MLOps |
+| **Data Engineering** | SQL, Python, Airflow, Spark, Microsoft Fabric, ETL/ELT Pipelines, Lakehouse Architecture |
+| **Cloud & DevOps** | Azure, AWS (Bedrock, EKS), GCP, Docker, Kubernetes, Terraform, Jenkins, Jira, CI/CD |
+| **Programming** | Python, SQL, GoLang, C, Bash, MATLAB/Simulink |
 | **Visualization** | PowerBI, Matplotlib, Streamlit |
 
 ---
 
 ## 🚀 Featured Projects
 
-### 1. [AI Motivational Quote Generator (TinyLlama Fine-Tuning)](https://github.com/bkqz/ai-quote-generator)
+### 1. [Digital Asset Manager (Multimodal RAG)](https://github.com/bkqz/digital-asset-manager)
+**Focus:** Multimodal RAG, Semantic Search, and Automated Metadata Generation
+* **Summary:** Developed an end-to-end engineering solution for semantic search and conversational reasoning over unstructured image libraries using a decoupled RAG architecture.
+* **Engineering Highlights:**
+    * Implemented **Llama-4-Scout** via Groq's LPU™ for high-speed vision inference.
+    * Orchestrated vector search using **Pinecone Serverless** and persistent storage with **Supabase**.
+    * Built a **Streamlit** interface for interactive asset discovery and reasoning.
+* **Stack:** Python, Llama-4/Groq, Pinecone, Supabase, Hugging Face, Docker.
+
+### 2. [AI Motivational Quote Generator (TinyLlama Fine-Tuning)](https://github.com/bkqz/ai-quote-generator)
 **Focus:** Large Language Model Fine-Tuning & Inference Optimization
 * **Summary:** Fine-tuned a 1.1B parameter TinyLlama model to strictly adhere to structured output formats, reducing inference latency by ~58% via quantization.
 * **Engineering Highlights:**
@@ -34,12 +42,12 @@ With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I
     * Conducted rigorous **GPU Benchmarking** (T4) to validate performance gains.
 * **Stack:** PyTorch, Hugging Face, Google Colab, Gradio.
 
-### 2. [AI-Powered Recipe Recommender](https://github.com/bkqz/recipe-recommender)
+### 3. [AI-Powered Recipe Recommender](https://github.com/bkqz/recipe-recommender)
 **Focus:** NLP, Vectorization, and Web Application
 * **Summary:** Developed a content-based recommendation engine that matches user ingredients to recipes using TF-IDF vectorization and Cosine Similarity.
 * **Stack:** Python, Streamlit, Pandas, Scikit-learn, REST APIs.
   
-### 3. [CloudMart: Multi-Cloud E-Commerce Platform](https://www.linkedin.com/posts/bkaziyev_multicloud-devops-ai-activity-7309754378440077312-Zpmm)
+### 4. [CloudMart: Multi-Cloud E-Commerce Platform](https://www.linkedin.com/posts/bkaziyev_multicloud-devops-ai-activity-7309754378440077312-Zpmm)
 *Note: This project synthesizes a 5-day intensive MultiCloud challenge.*
 
 **Focus:** Infrastructure as Code (IaC), Containerization, and AI Agent Integration
@@ -50,10 +58,9 @@ With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I
 * **Engineering Highlights:**
     * **Infrastructure:** Provisioned AWS resources using **Terraform**.
     * **Deployment:** Containerized applications with **Docker** and orchestrated via **Kubernetes (EKS)**.
-    * **Pipelines:** Built automated CI/CD workflows using **AWS CodePipeline**.
-    * **Data & AI:** Integrated **AWS Bedrock** for AI customer agents, **Google BigQuery** for analytics and **Azure AI** for sentiment analysis on customer feedback.
+    * **Data & AI:** Integrated **AWS Bedrock** for AI customer agents, **Google BigQuery** for analytics and **Azure AI** for sentiment analysis.
 
-### 4. [Predictive Maintenance Dashboard](https://predmaintdemo.streamlit.app/)
+### 5. [Predictive Maintenance Dashboard](https://predmaintdemo.streamlit.app/)
 **Focus:** Regression Modeling & Operational Insights
 * **Summary:** Leveraged historical sensor data to predict the Remaining Useful Life (RUL) of industrial equipment, achieving an RMSE of ~18 cycles.
 * **Stack:** XGBoost, Random Forest, Feature Engineering, Streamlit.
@@ -62,38 +69,37 @@ With certifications in **AWS AI**, **Oracle Cloud**, and **Data Engineering**, I
 
 ## 💼 Professional Experience
 
-**Data Scientist | Projects & Certifications**
+**AI/ML Engineer | Projects & Certifications**
 *Austin, TX | 07/2024 - Present*
-* **Cloud Architecture:** Designed multi-cloud AI systems integrating AWS, Azure, and GCP services.
-* **Certification:** Earned **AWS Certified AI Practitioner** and **Oracle AI Vector Search** credentials.
-* **Modeling:** Developed end-to-end regression and classification models to solve business-critical problems.
+* **Azure AI & Data:** Earned Microsoft Azure AI Engineer and Fabric Data Engineer Associate certifications, validating expertise in unifying data in Lakehouse architectures and deploying cognitive services.
+* **Multi-Cloud AI:** Designed an e-commerce system spanning AWS, GCP, and Azure, integrating BigQuery analytics and Azure AI Services for customer feedback processing.
+* **Generative AI:** Achieved Oracle OCI Generative AI and Vector Search professional certifications, implementing RAG and similarity matching for high-performance recommendation engines.
 
-**Machine Learning Engineer Intern | Outpeer.kz**
+**Machine Learning Intern & Engineering Fellow | Outpeer.kz / Qwasar Silicon Valley**
 *Remote | 10/2023 - 06/2024*
-* **Top Performer:** Ranked top 10 in a competitive Data Science Bootcamp (100+ peers).
-* **Predictive Modeling:** Built and optimized Random Forest/XGBoost models for equipment lifecycle forecasting.
-
-**Software Engineering Bootcamp Participant | Qwasar Silicon Valley**
-*Remote | 10/2023 - 06/2024*
-* **Systems Programming:** Completed 500+ hours of low-level programming in **C and GoLang**, focusing on memory management and algorithms.
+* **Predictive Modeling:** Engineered and deployed a predictive maintenance model (XGBoost, Random Forest) to forecast equipment Remaining Useful Life (RUL).
+* **Systems Programming:** Completed an intensive 500+ hour fellowship focused on low-level architecture in **C and GoLang**, mastering memory management and complex data structures.
 
 **Control Systems Engineer (Lead Consultant)**
 *Oil & Gas / Energy Sectors | 07/2009 - 10/2023*
-* **Engineering Leadership:** Led system integration and commissioning for Chevron's major capital project ($47B+).
-* **Data Analysis and Optimization:** Analyzed telemetry data using SQL/PowerBI to reduce energy losses by 5-10%.
+* **Engineering Leadership:** Led system integration and commissioning for Chevron's major capital project ($47B+), ensuring 100% compliance with rigorous safety and quality standards.
+* **Stakeholder Management:** Served as the single point of contact for stakeholders on major capital projects, resolving 150+ complex technical scope issues.
+* **Data Analysis & Optimization:** Designed and implemented automated control systems, analyzing telemetry data to reduce energy losses by 5-10%.
 
 ---
 
 ## 📜 Certifications
 
-* **AWS Certified AI Practitioner** (Early Adopter Badge), 2025
+* **Microsoft Certified:** Azure AI Engineer Associate & Fabric Data Engineer Associate, 2026
 * **Oracle Certified Professional:** Generative AI, AI Vector Search, OCI Data Science, 2025
-* **DataCamp Certified Data Engineer Associate**, 2024
+* **AWS Certified:** AI Practitioner (Early Adopter Badge), 2025
+* **DataCamp Certified:** Data Engineer Associate, 2024
 
 ---
 
 ## 🎓 Education
 
+* **M.Sc. in Computer Science** | Georgia Institute of Technology (Expected 2028)
 * **M.Sc. in Advanced Control & Systems Engineering** | University of Manchester
 * **B.Sc. in Economics** | Moscow Power Engineering Institute
 * **B.Sc. in Radio Engineering, Electronics & Telecommunications** | Almaty University of Power Engineering and Telecommunications
